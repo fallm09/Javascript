@@ -1,12 +1,267 @@
-Êþº¾   9 8  net/programme/ValeurEntiere  java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this Lnet/programme/ValeurEntiere; main ([Ljava/lang/String;)V	    java/lang/System   out Ljava/io/PrintStream;  java/lang/StringBuilder  afficher valeur :
-     (Ljava/lang/String;)V
-      append (I)Ljava/lang/StringBuilder;
-  " # $ toString ()Ljava/lang/String;
- & ( ' java/io/PrintStream )  println + afficher la valeur :
- & - ) . (I)V args [Ljava/lang/String; a I b c StackMapTable 
-SourceFile ValeurEntiere.java !               /     *· ±    
-                    	       õ     m<=>¤ ² » Y· ¶ ¶ !¶ %¤ ² » Y· ¶ ¶ !¶ %¤ ² » Y*· ¶ ¶ !¶ %² ¶ ,² ¶ ,² ¶ ,±    
-   6          	  
- !  &  <  A  W  ^  e  l     *    m / 0    k 1 2   i 3 2   g 4 2  5   
- þ   6    7
+﻿
+
+SOMME JAVA:
+package net.programme;
+import java.util.Scanner;
+public class Somme {
+
+	public static void main(String[] args) {
+		 System.out.println("taper la valeur de n :");
+		@SuppressWarnings("resource")
+		Scanner entree=new Scanner(System.in);
+		int n=entree.nextInt();
+		int j=0 ;
+		for(int i=1; i<= n;i++) {
+			j=j+1 ;
+		}
+	
+		System.out.println("la somme des "+ n + "premiers nombres est : " + j) ;
+			
+		
+
+	}
+
+}
+
+
+package net.programme;
+
+
+public class Coordonnées {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+package net.programme;
+
+public class AlgoCalculatrice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+
+
+package net.programme;
+
+public class DureeVol {
+
+	public static void main(String[] args) {
+	int h2 = 16;
+	int h1 = 14;
+	int heure = h2-h1 ;
+	System.out.println("afficher l'heure :" + heure) ;
+	int m1 = 24;
+	int m2 = 30;
+	int minute = m2-m1 ;
+	System.out.println("afficher la minute : " + minute) ;
+	System.out.println(minute) ;
+	System.out.println(heure) ;
+   int heure1= (14-16-1) ;
+   System.out.println("afficher heure :" + heure1);
+   int minute1 = 24+60-30 ;
+   System.out.println("afficher la minute :" + minute1);
+  
+	
+		
+
+	}
+
+}
+
+package net.programme;
+
+public class Monnaie {
+
+	public static void main(String[] args) {
+	int monnaie = 20 ;
+	if(monnaie > 20);
+	System.out.println("afficher :" + monnaie) ;
+	int monnaie1 = 10 ;
+	if(monnaie> 10) ;
+	System.out.println("afficher :" + monnaie1) ;
+	int monnaie11 = 5 ;
+	if (monnaie11 > 5) ;
+	System.out.println("afficher :" + monnaie11 ) ;
+	int monnaie111 = 2 ;
+	if(monnaie111 > 2);
+	System.out.println("afficher :" + monnaie111) ; 
+	int monnaie1111 = 1 ;
+	if(monnaie1111> 1) ;
+	System.out.println("afficher :" + monnaie1111) ;
+
+	}
+
+}
+
+
+
+
+
+
+package net.programme;
+
+public class Nombreparfait {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+
+package net.programme;
+
+public class Programmedate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+package net.programme;
+import java.lang.Math ;
+       public class Puissance {
+    	   public static void main(String[] args) {
+	double base = 0,puissance = 0 ;
+	//Fournir els donnees d'entrees
+	System.out.println("saisir la base : ") ;
+	//calculer a puissance
+	puissance=Math.pow(base, puissance) ;
+	//afficher le resultat
+	System.out.println(base + " ^ " + puissance + " = " + puissance) ;
+
+	
+		
+
+	}
+
+}
+
+
+
+package net.programme;
+
+public class R2 {
+
+	public static void main(String[] args) {
+		// 
+
+	}
+
+}
+
+
+
+package net.programme;
+
+    public class Rayon {
+
+	public static void main(String[] args) {
+		System.out.println("ecrire le rayon du cercle") ;
+		System.out.println("calculer le perimetre") ;
+		double p = Math.atan(2) ;
+		System.out.println(" le perimetre est :" + p);
+		
+	
+		
+
+	}
+
+}
+
+
+package net.programme;
+
+public class Resistance {
+
+	public static void main(String[] args) {
+		System.out.println("afficher la resistance des paralleles") ;
+		int a  = 12 ;
+		int b = 13 ;
+		int c = 14 ; 
+		System.out.printf( "a = " + a + ", b = " + b + "c= "+ c) ;
+	
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
+
+
+
+package net.programme;
+
+public class TES {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+
+
+
+package net.programme;
+
+public class ValeurEntiere {
+
+	public static void main(String[] args) {
+		int a = 0;
+		int b =0;
+		int c =0;
+		if (a > b) ;
+		System.out.println("afficher valeur :" + a);
+	    if (b > c) ;
+	    System.out.println("afficher valeur :" + b);
+	    if (a > b) ;
+	    System.out.println("afficher la valeur :" + a) ;
+	    System.out.println(a);
+	    System.out.println(b) ;
+	    System.out.println(c) ;
+	    
+		
+		
+		
+		
+     
+	}
+
+}
+
+ 
+
+ 
+
+
+
+   
+
+ 
+   	 
+
+
+
+
